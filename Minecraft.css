@@ -1,0 +1,81 @@
+.pixels{
+    width:50px;
+    height:50px;
+    border:1px solid none;
+    display:inline-block;
+    background-color: lightblue;
+}
+.gameboard{
+    width: 1000px;
+    height: 750px;
+    display: inline-block;
+    border:1px solid black;
+}
+
+ .shed{
+    width:440px;
+    height:750px;
+    border:1px solid black;
+    float: right;
+    background-image: url("./Minecraft/Images/MC.jpg");
+}
+
+.pixels.dirt{
+    background-image: url("./Minecraft/Images/dirt.png");
+}
+
+.pixels.grass{
+    background-image: url("./Minecraft/Images/dirtwithgrass.png");
+    background-size: cover;
+}
+
+.shovel{
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    background-image: url("./Minecraft/Images/shovel.png");
+    background-size: cover;
+    border:1px solid black;
+}
+
+.pick{
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    background-size: cover;
+    background-image: url("./Minecraft/Images/pick.png");
+    border:1px solid black;
+}
+
+.axe{
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    background-size: cover;
+    background-image: url("./Minecraft/Images/axe.jpg");
+    border:1px solid black;
+}
+
+.cloud{
+    background-color: white;
+}
+
+.wood{
+    background-image: url("./Minecraft/Images/wood.jpg");
+    background-size: cover;
+}
+.rock{
+    background-image: url("./Minecraft/Images/rock.jpg");
+    background-size: cover;
+}
+
+.tree{
+    background-image: url("./Minecraft/Images/tree.jpg");
+    background-size: cover;
+}
